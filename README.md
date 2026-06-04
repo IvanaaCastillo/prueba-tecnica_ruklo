@@ -7,9 +7,10 @@ Consiste en una API desarrollada con NestJS que permite gestionar clientes y car
 
 ## 🚀 Tecnologías utilizadas
 
+- VS Code
 - Node.js
 - NestJS
-- Prisma ORM
+- Prisma 5 ORM
 - SQLite
 - TypeScript
 - csv-parser
