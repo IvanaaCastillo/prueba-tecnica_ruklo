@@ -34,15 +34,15 @@ Normalización de datos
 
 Antes de guardar los datos se aplican transformaciones como:
 
-Emails en minúscula
-Limpieza de teléfonos (espacios y caracteres especiales)
-Estandarización de DNI
-Manejo de duplicados
+- Emails en minúscula
+- Limpieza de teléfonos (espacios y caracteres especiales)
+- Estandarización de DNI
+- Manejo de duplicados
 
 ---
 
 ## 📌 Decisiones técnicas
-Se utilizó SQLite para simplificar el entorno de desarrollo.
-Se separó la lógica de negocio en service siguiendo la arquitectura de NestJS.
-Se priorizó la consistencia de datos sobre la inserción directa.
-Se manejaron errores del CSV sin detener la importación completa.
+- Se utilizó SQLite para simplificar el entorno de desarrollo.
+- Se separó la lógica de negocio en service siguiendo la arquitectura de NestJS.
+- Se priorizó la consistencia de datos sobre la inserción directa.
+- Se manejaron errores del CSV sin detener la importación completa.
